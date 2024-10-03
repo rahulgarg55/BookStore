@@ -14,7 +14,7 @@ useUnifiedTopology:true,
   app.use(express.json());
 
 
-  app.use("/api/users",bookroute);
+  app.use("/api",bookroute);
 
   const PORT=process.env.PORT || 5000;
 

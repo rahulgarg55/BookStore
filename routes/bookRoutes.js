@@ -9,10 +9,4 @@ router.get("/:id",getbook);
 router.put("/:id",updatebook);
 router.delete("/:id",deletebook);
 
-
-
-
-
-
-
 module.exports=router;
